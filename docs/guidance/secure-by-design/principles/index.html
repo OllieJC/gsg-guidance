@@ -5,23 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>Strategy - UK Government Security</title>
+    <title>UK Government Security</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.security.gov.uk/strategy/">
+    <link rel="canonical" href="https://www.security.gov.uk/guidance/secure-by-design/principles/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.security.gov.uk" />
       <meta name="twitter:image" content="https://www.security.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="Strategy - UK Government Security" />
-      <meta name="twitter:url" content="https://www.security.gov.uk/strategy/" />
+      <meta name="twitter:title" content="UK Government Security" />
+      <meta name="twitter:url" content="https://www.security.gov.uk/guidance/secure-by-design/principles/" />
 
       <meta property="og:image" content="https://www.security.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="UK Government Security" />
-      <meta property="og:title" content="Strategy" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.security.gov.uk/strategy/" />
+      <meta property="og:url" content="https://www.security.gov.uk/guidance/secure-by-design/principles/" />
 
     
   </head>
@@ -272,22 +271,76 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="strategy">Strategy</h1>
-<p>This page contains various security-related strategies across government.</p>
-<h2 id="government-cyber-security-strategy">Government Cyber Security Strategy</h2>
-<p>This strategy sets out the government’s approach to building a cyber resilient public sector.</p>
-<p>You can find the current <a href="https://www.gov.uk/government/publications/government-cyber-security-strategy-2022-to-2030">Government Cyber Security Strategy on GOV.UK</a>.</p>
-<h2 id="national-cyber-security-strategy">National Cyber Security Strategy</h2>
-<p>This strategy sets out the government’s approach to protecting and promoting the UK’s interests in cyberspace. It is our plan to ensure that the UK continues to be a leading responsible and democratic cyber power.</p>
-<p>You can find the current <a href="https://www.gov.uk/government/publications/national-cyber-strategy-2022">National Cyber Security Strategy on GOV.UK</a>.</p>
+            <h1 id="10-secure-by-design-principles">10 Secure by Design Principles</h1>
+<p>The following core principles are aimed at the digital and security communities delivering digital services. These cover the end-to-end digital service delivery life cycle addressing the challenges faced by government organisations. They are based on the <a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles">NCSC’s Secure Design Principles</a>, which focus on the design phase of cyber secure systems. The government principles take this basis and expand to cover the whole lifecycle, and are focussed on the needs of the public sector. Each principle is supplemented with an &ldquo;intent&rdquo; which illustrates the importance.</p>
+
+<hr>
+<h2 id="principle-1-appoint-a-business-risk-owner">Principle 1 – Appoint a business risk owner</h2>
+<p>Appoint an appropriately senior risk owner, who has a clear reporting line to or is a member of the top management, to be accountable for owning the cyber security risks for the service throughout its life cycle and allocating security resources within the service delivery team.</p>
+<h3 id="intent-of-principle-1">Intent of principle 1</h3>
+<p>By engaging an appropriately senior risk owner (project sponsor), you can make sure that cyber security risks are escalated to top management and managed by the most senior stakeholders in the business in accordance with the organisation’s risk appetite.</p>
+
+<hr>
+<h2 id="principle-2-perform-security-due-diligence">Principle 2 - Perform security due diligence</h2>
+<p>Continually assess the security of products or open-source code for security vulnerabilities, and mitigate the risks to your environment.</p>
+<h3 id="intent-of-principle-2">Intent of principle 2</h3>
+<p>Performing security due diligence of technology products and open-source code allows you to make an informed business decision on the trade-offs between cyber security implications and efficiency. It enables sharing lessons-learnt with suppliers to help them improve the security of their products.</p>
+
+<hr>
+<h2 id="principle-3-design-risk-driven-security">Principle 3 - Design risk-driven security</h2>
+<p>Continuously optimise security controls taking into account the risk appetite, <a href="https://csrc.nist.gov/glossary/term/situational_awareness">situational awareness</a> and supply chain shared responsibility model, not overlooking relevant <a href="https://csrc.nist.gov/glossary/term/best_practice">good practice</a> protections.</p>
+<h3 id="intent-of-principle-3">Intent of principle 3</h3>
+<p>Dynamically managing risks and designing proportionate safeguards means that you can respond to changes in the risk profile appropriately to always have a current defensible position of your controls and mitigations.</p>
+
+<hr>
+<h2 id="principle-4-create-usable-security">Principle 4 - Create usable security</h2>
+<p>Carry out ongoing user research to make sure security controls are appropriate for the environment your users are working in and are easy to use.</p>
+<h3 id="intent-of-principle-4">Intent of principle 4</h3>
+<p>Usable security allows users to effectively operate the security controls available to them. Unusable security forces users to work around it and adopt insecure practices to get things done.</p>
+
+<hr>
+<h2 id="principle-5-design-security-considering-detective-and-responding-measures">Principle 5 - Design security considering detective and responding measures</h2>
+<p>Design and iterate security controls and processes to cover all stages of the services life cycle including capabilities to protect, detect, respond and recover from incidents.</p>
+<h3 id="intent-of-principle-5">Intent of principle 5</h3>
+<p>By designing for security capabilities expanding across all functions of the cyber security framework, you reduce the likelihood of weak points where compromise could occur and go undetected.</p>
+
+<hr>
+<h2 id="principle-6-design-flexible-architectures">Principle 6 - Design flexible architectures</h2>
+<p>Implement new services and update legacy systems with flexible architectures that allow scaling and easy integration of new security controls in response to business requirements, changing threats and vulnerabilities.</p>
+<h3 id="intent-of-principle-6">Intent of principle 6</h3>
+<p>The use of flexible architectures allows services to readily adapt to meet new business requirements as well as respond quickly to changes in the security risk and threat landscape.</p>
+
+<hr>
+<h2 id="principle-7-minimise-the-attack-surface">Principle 7 - Minimise the attack surface</h2>
+<p>Use only the required capabilities, software, data and hardware components necessary for the service to achieve its intended use.</p>
+<h3 id="intent-of-principle-7">Intent of principle 7</h3>
+<p>Minimising the <a href="https://csrc.nist.gov/glossary/term/attack_surface">attack surface</a> reduces the opportunities for potential attackers to exploit vulnerabilities in the service without degrading the service.</p>
+
+<hr>
+<h2 id="principle-8-defend-in-depth">Principle 8 - Defend in depth</h2>
+<p>Assume any part of the service could be compromised at any point in its life cycle and design services so they cannot be wholly compromised if a single control has either failed or been overcome by an attacker.</p>
+<h3 id="intent-of-principle-8">Intent of principle 8</h3>
+<p>By utilising layered controls effectively, it will increase the time and effort required by threat actors to fully compromise the service.</p>
+
+<hr>
+<h2 id="principle-9-build-and-embed-continuous-assurance">Principle 9 - Build and embed continuous assurance</h2>
+<p>Implement proportionate and evidence-based security assurance into the digital service life cycle to provide confidence in the effectiveness of the security controls.</p>
+<h3 id="intent-of-principle-9">Intent of principle 9</h3>
+<p>Continually assuring the security posture of digital services provides the risk owners with the level of confidence that services operate securely and as intended.</p>
+
+<hr>
+<h2 id="principle-10-secure-changes">Principle 10 - Secure changes</h2>
+<p>Assess the security impact of proposed changes to digital services to ensure that their security and the way they work are not adversely affected.</p>
+<h3 id="intent-of-principle-10">Intent of  principle 10</h3>
+<p>To ensure that changes cannot be made to an operational service without proper consideration of how a change might affect its security, and management of that change through a secure design, development and deployment process.</p>
 
             
           </main>
 
           <aside>
               <ul class="contribution-banner">
-                <li><a href="https://github.com/cabinetoffice/gsg-guidance/blob/main/source/strategy/index.html.md.erb">View source</a></li>
-                <li><a href="https://github.com/cabinetoffice/gsg-guidance/issues/new?labels=bug&amp;title=Re:%20'Strategy'&amp;body=Problem%20with%20'Strategy'%20(https://www.security.gov.uk/strategy/)">Report problem</a></li>
+                <li><a href="https://github.com/cabinetoffice/gsg-guidance/blob/main/source/guidance/secure-by-design/principles/index.html.md">View source</a></li>
+                <li><a href="https://github.com/cabinetoffice/gsg-guidance/issues/new?labels=bug&amp;title=Re:%20''&amp;body=Problem%20with%20''%20(https://www.security.gov.uk/guidance/secure-by-design/principles/)">Report problem</a></li>
                 <li><a href="https://github.com/cabinetoffice/gsg-guidance">GitHub Repo</a></li>
               </ul>
           </aside>
